@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#everything {
+  padding: 1.4em;
+}
+
+h1 {
+  font-size: 3em;
+  animation: colors 10s infinite;
+}
+
+#submit {
+  margin-top: 1.5em;
+}
+
+#result {
+  margin-top: 5em;
+}
+
+@keyframes colors {
+  0% {color: black}
+  10% {color: green}
+  20% {color: aqua}
+  30% {color: blue}
+  40% {color: purple}
+  50% {color: red}
+  60% {color: orangered}
+  70% {color: orange}
+  80% {color: yellow}
+  90% {color: yellowgreen}
+  100% {color: black}
+
+}
