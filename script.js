@@ -23,11 +23,11 @@ $(document).ready(function() {
       var finalString = goal + " = ";
 
       if(goal % 3 === 1) {
-        num += 34; // this is fine since it's 4+2+0+6+9+4+2+0+6+9
-        finalString += "4 + 2 + 0 + 6 + 9 + 4 + 2 + 0 + 6 + 9 + ";
+        num += 34; // this is fine since it's 4-2+0+6+9+4-2+0+6+9
+        finalString += "4 - 2 + 0 + 6 + 9 + 4 - 2 + 0 + 6 + 9 + ";
       } else if(goal % 3 === 2) {
-        num += 17; // this is fine since it's 4+2+0+6+9
-        finalString += "4 + 2 + 0 + 6 + 9 + ";
+        num += 17; // this is fine since it's 4-2+0+6+9
+        finalString += "4 - 2 + 0 + 6 + 9 + ";
       }
 
 
